@@ -1,0 +1,13 @@
+Primero solamente se crea la base de datos:
+CREATE DATABASE parqueaderoparcial;
+
+El se encarga de crear las tablas, dentro de la tabla Rol se deben agregar:
+
+INSERT INTO parqueaderoparcial.rol (rol_id, rol_nombre) VALUES 
+(1, 'ROLE_ADMINISTRADOR'),
+(2, 'ROLE_ACOMODADOR'),
+(3, 'ROLE_CLIENTE');
+
+para cambiar el rol se debe ingresar a la tabla usuarios_roles y ambiarlo manualmente
+
+
